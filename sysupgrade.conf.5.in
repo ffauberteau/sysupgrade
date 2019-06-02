@@ -161,6 +161,14 @@ The presence of a modules set enables the modules step in the automated upgrade
 procedure.
 .Pp
 Default: AUTO.
+.It Va ARCHIVE_EXTENSION
+.Pp
+Archive file extension of the sets. Can be either
+.Sq tgz
+or
+.Sq tar.xz .
+.Pp
+Default: tgz.
 .El
 .Sh SEE ALSO
 .Xr sysupgrade 8
