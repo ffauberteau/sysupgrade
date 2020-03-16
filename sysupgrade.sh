@@ -432,6 +432,7 @@ sysupgrade_clean() {
 
     shtk_cli_info "Cleaning downloaded files"
     rm -f "$(shtk_config_get CACHEDIR)"/*.*gz*
+    rm -f "$(shtk_config_get CACHEDIR)"/*.${arch_ext}*
 }
 
 
